@@ -321,9 +321,10 @@ justify-content: center;
   
 }
 
-.quality__container{
+.reusable__container{
 
-  margin-top:96px;
+  padding-top:96px;
+  padding-bottom:96px;
 }
 
 .quality__description--h2{
