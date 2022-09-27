@@ -1,207 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css" />
-    <script src="https://kit.fontawesome.com/1a59270d29.js" crossorigin="anonymous"></script>
-    <script src="./app.js"></script>
-  </head>
-  <body>
-    <section class="overall">
-      <div class="container">
-        <div class="row">
-          <nav class="nav__bar">
-            <div class="logo__wrapper">
-              <img
-                src="./assets/navLogo.svg"
-                class="logo__img"
-                alt="Navigation Bar Logo"
-              />
-              <p id="logo__text">TreeDev</p>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/1a59270d29.js" crossorigin="anonymous"></script>
+  <script src="./app.js"></script>
+</head>
+
+<body>
+  <section class="overall">
+    <div class="container">
+      <div class="row">
+        <nav class="nav__bar">
+          <div class="logo__wrapper">
+            <img src="./assets/navLogo.svg" class="logo__img" alt="Navigation Bar Logo" />
+            <p id="logo__text">TreeDev</p>
+          </div>
+          <div class="nav__list">
+            <ul class="nav__links">
+              <li class="nav__link"><a href="">About</a></li>
+              <li class="nav__link"><a href="">Blog</a></li>
+              <li class="nav__link"><a href="">Pricing</a></li>
+              <li class="nav__link"><a href="">Contact Us</a></li>
+              <li class="nav__link nav__link--login"><a href="">Login</a></li>
+              <li class="nav__link nav__link--primary">
+                <a href="" class="primary__link--color">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <header>
+          <div class="header__container">
+            <div class="row">
+              <div class="description__wrapper">
+                <div class="header__description">
+                  <h1 class="description__title">
+                    Beautiful React Templates
+                    <span class="purple">for you.</span>
+                  </h1>
+
+                  <p class="description__para">
+                    Our template are easy to set up, understand and
+                    customize.Fully modular components with a variety of pages
+                    and components
+                  </p>
+                  <div class="header__input--wrapper">
+                    <input type="email" class="header__input" placeholder="         Your E-mail adrress" />
+                    <button class="header__button">Get Started</button>
+                  </div>
+                  <div class="customers__img--wrapper">
+                    <p class="customers__para">OUR TRUSTED CUSTOMERS</p>
+                    <img src="./assets/customers-logo.png" class="customers__img" alt="" />
+                  </div>
+                </div>
+                <div class="header__img--wrapper">
+                  <img src="./assets/design-illustration-2.6da6a00b.svg" class="header__img"
+                    alt="header main picture" />
+                </div>
+              </div>
             </div>
-            <div class="nav__list">
-              <ul class="nav__links">
-                <li class="nav__link"><a href="">About</a></li>
-                <li class="nav__link"><a href="">Blog</a></li>
-                <li class="nav__link"><a href="">Pricing</a></li>
-                <li class="nav__link"><a href="">Contact Us</a></li>
-                <li class="nav__link nav__link--login"><a href="">Login</a></li>
-                <li class="nav__link nav__link--primary">
-                  <a href="" class="primary__link--color">Sign Up</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <header>
-            <div class="header__container">
+            <svg width="600" height="600" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg"
+              class="half__circle--absolute">
+              <g transform="translate(300,300)">
+                <path
+                  d="M176.2,-106.9C208.7,-45.5,201.8,33.5,165.8,99.4C129.9,165.3,65,218.2,-9.2,223.5C-83.4,228.8,-166.9,186.7,-201.6,121.4C-236.4,56.2,-222.6,-32.2,-180.9,-98.9C-139.1,-165.7,-69.6,-210.8,1.2,-211.5C71.9,-212.2,143.8,-168.3,176.2,-106.9Z"
+                  fill="#6415ff"></path>
+              </g>
+            </svg>
+          </div>
+        </header>
+        <main>
+          <section class="features">
+            <div class="container">
               <div class="row">
-                <div class="description__wrapper">
-                  <div class="header__description">
-                    <h1 class="description__title">
-                      Beautiful React Templates
-                      <span class="purple">for you.</span>
+                <div class="features">
+                  <div class="features__description">
+                    <h2 class="h2__reusable">Features</h2>
+                    <h1 class="h1__reusable">
+                      We Have Amazing <span class="purple">Service.</span>
                     </h1>
-
-                    <p class="description__para">
-                      Our template are easy to set up, understand and
-                      customize.Fully modular components with a variety of pages
-                      and components
+                    <p class="para__reusable">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore
+                      magna aliqua.
                     </p>
-                    <div class="header__input--wrapper">
-                      <input
-                        type="email"
-                        class="header__input"
-                        placeholder="         Your E-mail adrress"
-                      />
-                      <button class="header__button">Get Started</button>
-                    </div>
-                    <div class="customers__img--wrapper">
-                      <p class="customers__para">OUR TRUSTED CUSTOMERS</p>
-                      <img
-                        src="./assets/customers-logo.png"
-                        class="customers__img"
-                        alt=""
-                      />
-                    </div>
                   </div>
-                  <div class="header__img--wrapper">
-                    <img
-                      src="./assets/design-illustration-2.6da6a00b.svg"
-                      class="header__img"
-                      alt="header main picture"
-                    />
+                  <div class="services__wrapper">
+                    <div class="service__box">
+                      <div class="service__img--wrapper">
+                        <img src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="service__img"
+                          alt="" />
+                      </div>
+                      <div class="service__description">
+                        <h2 class="service__title">Secure</h2>
+                        <p class="service__para">
+                          Lorem ipsum donor amet siti ceali ut enim ad minim
+                          veniam, quis nostrud.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="service__box">
+                      <div class="service__img--wrapper">
+                        <img src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="service__img"
+                          alt="" />
+                      </div>
+                      <div class="service__description">
+                        <h2 class="service__title">24/7 Support</h2>
+                        <p class="service__para">
+                          Lorem ipsum donor amet siti ceali ut enim ad minim
+                          veniam, quis nostrud.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="service__box">
+                      <div class="service__img--wrapper">
+                        <img src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="service__img"
+                          alt="" />
+                      </div>
+                      <div class="service__description">
+                        <h2 class="service__title">Customizable</h2>
+                        <p class="service__para">
+                          Lorem ipsum donor amet siti ceali ut enim ad minim
+                          veniam, quis nostrud.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="service__box">
+                      <div class="service__img--wrapper">
+                        <img src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="service__img"
+                          alt="" />
+                      </div>
+                      <div class="service__description">
+                        <h2 class="service__title">Reliable</h2>
+                        <p class="service__para">
+                          Lorem ipsum donor amet siti ceali ut enim ad minim
+                          veniam, quis nostrud.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="service__box">
+                      <div class="service__img--wrapper">
+                        <img src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="service__img"
+                          alt="" />
+                      </div>
+                      <div class="service__description">
+                        <h2 class="service__title">Fast</h2>
+                        <p class="service__para">
+                          Lorem ipsum donor amet siti ceali ut enim ad minim
+                          veniam, quis nostrud.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="service__box">
+                      <div class="service__img--wrapper">
+                        <img src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" class="service__img"
+                          alt="" />
+                      </div>
+                      <div class="service__description">
+                        <h2 class="service__title">Easy</h2>
+                        <p class="service__para">
+                          Lorem ipsum donor amet siti ceali ut enim ad minim
+                          veniam, quis nostrud.
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <svg
-                width="600"
-                height="600"
-                viewBox="0 0 600 600"
-                xmlns="http://www.w3.org/2000/svg"
-                class="half__circle--absolute"
-              >
-                <g transform="translate(300,300)">
-                  <path
-                    d="M176.2,-106.9C208.7,-45.5,201.8,33.5,165.8,99.4C129.9,165.3,65,218.2,-9.2,223.5C-83.4,228.8,-166.9,186.7,-201.6,121.4C-236.4,56.2,-222.6,-32.2,-180.9,-98.9C-139.1,-165.7,-69.6,-210.8,1.2,-211.5C71.9,-212.2,143.8,-168.3,176.2,-106.9Z"
-                    fill="#6415ff"
-                  ></path>
-                </g>
-              </svg>
             </div>
-          </header>
-          <main>
-            <section class="features">
-              <div class="container">
-                <div class="row">
-                  <div class="features">
-                    <div class="features__description">
-                      <h2 class="h2__reusable">Features</h2>
-                      <h1 class="h1__reusable">
-                        We Have Amazing <span class="purple">Service.</span>
-                      </h1>
-                      <p class="para__reusable">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                      </p>
+          </section>
+          <section class="quality">
+            <div class="reusable__container">
+              <div class="row">
+                <div class="quality__wrapper">
+                  <div class="quality__description">
+                    <h2 class="h2__reusable">QUALITY WORK</h2>
+                    <div class="h1__reusable quality__description--h2">
+                      Designed & Developed By
+                      <span class="purple"> Professionals.</span>
                     </div>
-                    <div class="services__wrapper">
-                      <div class="service__box">
-                        <div class="service__img--wrapper">
-                          <img
-                            src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
-                            class="service__img"
-                            alt=""
-                          />
-                        </div>
-                        <div class="service__description">
-                          <h2 class="service__title">Secure</h2>
-                          <p class="service__para">
-                            Lorem ipsum donor amet siti ceali ut enim ad minim
-                            veniam, quis nostrud.
+                    <p class="quality__para">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore
+                      magna aliqua. Ut enim ad minim veniam, quis nostrud
+                      exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat.
+                    </p>
+                    <button class="quality__button">Learn More</button>
+                  </div>
+                  <figure class="figure__wrapper">
+                    <img src="./assets/Screenshot_initial.png" class="quality__img" alt="" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="steps">
+            <div class="container">
+              <div class="row">
+                <div class="steps__wrapper">
+                  <figure class="steps__img--wrapper">
+                    <img src="./assets/pc-screenshot.png" alt="Laptop image" class="laptop__img" />
+                  </figure>
+                  <div class="steps__description--wrapper">
+                    <h2 class="h2__reusable step">STEPS</h2>
+                    <h1 class="h1__reusable">
+                      Easy <span class="purple"> to Get Started.</span>
+                    </h1>
+                    <div class="subdescription__all-wrapper">
+                      <div class="subdescription__wrapper">
+                        <div class="number">01</div>
+                        <div class="subdescription__wrapper--small">
+                          <h2 class="subdescription__title">Register</h2>
+                          <p class="subdescription__para">
+                            Create an account with us using Google or
+                            Facebook.
                           </p>
                         </div>
                       </div>
-                      <div class="service__box">
-                        <div class="service__img--wrapper">
-                          <img
-                            src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
-                            class="service__img"
-                            alt=""
-                          />
-                        </div>
-                        <div class="service__description">
-                          <h2 class="service__title">24/7 Support</h2>
-                          <p class="service__para">
-                            Lorem ipsum donor amet siti ceali ut enim ad minim
-                            veniam, quis nostrud.
+                      <div class="subdescription__wrapper">
+                        <div class="number">01</div>
+                        <div class="subdescription__wrapper--small">
+                          <h2 class="subdescription__title">Register</h2>
+                          <p class="subdescription__para">
+                            Create an account with us using Google or
+                            Facebook.
                           </p>
                         </div>
                       </div>
-                      <div class="service__box">
-                        <div class="service__img--wrapper">
-                          <img
-                            src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
-                            class="service__img"
-                            alt=""
-                          />
-                        </div>
-                        <div class="service__description">
-                          <h2 class="service__title">Customizable</h2>
-                          <p class="service__para">
-                            Lorem ipsum donor amet siti ceali ut enim ad minim
-                            veniam, quis nostrud.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="service__box">
-                        <div class="service__img--wrapper">
-                          <img
-                            src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
-                            class="service__img"
-                            alt=""
-                          />
-                        </div>
-                        <div class="service__description">
-                          <h2 class="service__title">Reliable</h2>
-                          <p class="service__para">
-                            Lorem ipsum donor amet siti ceali ut enim ad minim
-                            veniam, quis nostrud.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="service__box">
-                        <div class="service__img--wrapper">
-                          <img
-                            src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
-                            class="service__img"
-                            alt=""
-                          />
-                        </div>
-                        <div class="service__description">
-                          <h2 class="service__title">Fast</h2>
-                          <p class="service__para">
-                            Lorem ipsum donor amet siti ceali ut enim ad minim
-                            veniam, quis nostrud.
-                          </p>
-                        </div>
-                      </div>
-                      <div class="service__box">
-                        <div class="service__img--wrapper">
-                          <img
-                            src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg"
-                            class="service__img"
-                            alt=""
-                          />
-                        </div>
-                        <div class="service__description">
-                          <h2 class="service__title">Easy</h2>
-                          <p class="service__para">
-                            Lorem ipsum donor amet siti ceali ut enim ad minim
-                            veniam, quis nostrud.
+                      <div class="subdescription__wrapper">
+                        <div class="number">01</div>
+                        <div class="subdescription__wrapper--small">
+                          <h2 class="subdescription__title">Register</h2>
+                          <p class="subdescription__para">
+                            Create an account with us using Google or
+                            Facebook.
                           </p>
                         </div>
                       </div>
@@ -209,292 +246,290 @@
                   </div>
                 </div>
               </div>
-            </section>
-            <section class="quality">
-              <div class="reusable__container">
-                <div class="row">
-                  <div class="quality__wrapper">
-                    <div class="quality__description">
-                      <h2 class="h2__reusable">QUALITY WORK</h2>
-                      <div class="h1__reusable quality__description--h2">
-                        Designed & Developed By
-                        <span class="purple"> Professionals.</span>
+            </div>
+          </section>
+          <section class="values">
+            <div class="reusable__container">
+              <div class="row">
+                <div class="values__wrapper">
+                  <div class="values__description--wrapper">
+                    <h2 class="h2__reusable">Values</h2>
+                    <h1 class="h1__reusable">
+                      We always Abid By Our
+                      <span class="purple">Principles.</span>
+                    </h1>
+                    <p class="value__description--para">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore
+                      magna aliqua. Ut enim ad minim veniam, quis nostrud
+                      exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat.
+                    </p>
+                    <div class="icons__wrapper">
+                      <div class="affordable__wrapper--all">
+                        <div class="affordable__wrapper">
+                          <div class="affordable__icon">
+                            <img src="./assets/dollar-sign.png" alt="" class="affordable__img" />
+                          </div>
+                          <h2 class="affordable__title">Affordable</h2>
+                        </div>
+                        <p class="card__products">
+                          We promise to offer you the best rate we can - at
+                          par with the industry standard.
+                        </p>
                       </div>
-                      <p class="quality__para">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </p>
-                      <button class="quality__button">Learn More</button>
-                    </div>
-                    <figure class="figure__wrapper">
-                      <img
-                        src="./assets/Screenshot_initial.png"
-                        class="quality__img"
-                        alt=""
-                      />
-                    </figure>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="steps">
-              <div class="container">
-                <div class="row">
-                  <div class="steps__wrapper">
-                    <figure class="steps__img--wrapper">
-                      <img
-                        src="./assets/pc-screenshot.png"
-                        alt="Laptop image"
-                        class="laptop__img"
-                      />
-                    </figure>
-                    <div class="steps__description--wrapper">
-                      <h2 class="h2__reusable step">STEPS</h2>
-                      <h1 class="h1__reusable">
-                        Easy <span class="purple"> to Get Started.</span>
-                      </h1>
-                      <div class="subdescription__all-wrapper">
-                        <div class="subdescription__wrapper">
-                          <div class="number">01</div>
-                          <div class="subdescription__wrapper--small">
-                            <h2 class="subdescription__title">Register</h2>
-                            <p class="subdescription__para">
-                              Create an account with us using Google or
-                              Facebook.
-                            </p>
+                      <div class="affordable__wrapper--all">
+                        <div class="affordable__wrapper">
+                          <div class="affordable__icon">
+                            <img src="./assets/briefcase.png" alt="" class="affordable__img" />
                           </div>
-                        </div>
-                        <div class="subdescription__wrapper">
-                          <div class="number">01</div>
-                          <div class="subdescription__wrapper--small">
-                            <h2 class="subdescription__title">Register</h2>
-                            <p class="subdescription__para">
-                              Create an account with us using Google or
-                              Facebook.
-                            </p>
-                          </div>
-                        </div>
-                        <div class="subdescription__wrapper">
-                          <div class="number">01</div>
-                          <div class="subdescription__wrapper--small">
-                            <h2 class="subdescription__title">Register</h2>
-                            <p class="subdescription__para">
-                              Create an account with us using Google or
-                              Facebook.
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="values">
-              <div class="reusable__container">
-                <div class="row">
-                  <div class="values__wrapper">
-                    <div class="values__description--wrapper">
-                      <h2 class="h2__reusable">Values</h2>
-                      <h1 class="h1__reusable">
-                        We always Abid By Our
-                        <span class="purple">Principles.</span>
-                      </h1>
-                      <p class="value__description--para">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea
-                        commodo consequat.
-                      </p>
-                      <div class="icons__wrapper">
-                        <div class="affordable__wrapper--all">
-                          <div class="affordable__wrapper">
-                            <div class="affordable__icon">
-                              <img
-                                src="./assets/dollar-sign.png"
-                                alt=""
-                                class="affordable__img"
-                              />
-                            </div>
-                            <h2 class="affordable__title">Affordable</h2>
-                          </div>
-                          <p class="value__para">
-                            We promise to offer you the best rate we can - at
-                            par with the industry standard.
-                          </p>
-                        </div>
-                        <div class="affordable__wrapper--all">
-                          <div class="affordable__wrapper">
-                            <div class="affordable__icon">
-                              <img
-                                src="./assets/briefcase.png"
-                                alt=""
-                                class="affordable__img"
-                              />
-                            </div>
 
-                            <h2 class="affordable__title">Proffesionalism</h2>
-                          </div>
-                          <p class="value__para">
-                            We promise to offer you the best rate we can - at
-                            par with the industry standard.
-                          </p>
+                          <h2 class="affordable__title">Proffesionalism</h2>
                         </div>
+                        <p class="card__products">
+                          We promise to offer you the best rate we can - at
+                          par with the industry standard.
+                        </p>
                       </div>
-                      <button class="quality__button value__button">
-                        Learn more
+                    </div>
+                    <button class="quality__button value__button">
+                      Learn more
+                    </button>
+                  </div>
+                  <figure class="values__img--wrapper">
+                    <img src="./assets/board.svg" class="value__img" alt="" />
+                  </figure>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="pricing">
+            <div class="container">
+              <div class="row">
+                <div class="pricing__description--wrapper">
+                  <h2 class="h2__reusable">Pricing</h2>
+                  <h1 class="h1__reusable">
+                    Reasonable & Flexxible <span class="purple">Plans.</span>
+                  </h1>
+                  <p class="value__description--para pricing__para">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+                <div class="pricing__cards--wrapper">
+
+                  <div class="green-card__wrapper">
+                    <div class="green-card__line"></div>
+                    <div class="price__green">
+                      <h2 class="green__name">PERSONAL</h2>
+                      <h1 class="green__price">$17.99</h1>
+                      <h3 class="green__time">MONTHLY</h3>
+                    </div>
+                    <div class="individuals">
+                      <h2 class="affordable__title">For Individuals</h2>
+                      <h5 class="green-card__features">30 Templates</h5>
+                      <h5 class="green-card__features">7 Landing Page</h5>
+                      <h5 class="green-card__features">12 Internal Pages</h5>
+                      <h5 class="green-card__features">Basic Assistance</h5>
+                    </div>
+
+                    <div class="personal__button--wrapper">
+                      <button class="green-personal__button personal__button--shadow">
+                        BUY NOW
                       </button>
                     </div>
-                    <figure class="values__img--wrapper">
-                      <img src="./assets/board.svg" class="value__img" alt="" />
-                    </figure>
+
                   </div>
-                </div>
-              </div>
-            </section>
-            <section class="pricing">
-              <div class="container">
-                <div class="row">
-                  <div class="pricing__description--wrapper">
-                    <h2 class="h2__reusable">Pricing</h2>
-                    <h1 class="h1__reusable">
-                      Reasonable & Flexxible <span class="purple">Plans.</span>
-                    </h1>
-                    <p class="value__description--para pricing__para">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua.
-                    </p>
-                  </div>
-                  <div class="pricing__cards--wrapper">
-                    <div class="green-card__wrapper">
-                      <div class="price__green">
-                        <h2>PERSONAL</h2>
-                        <h1>$17.99</h1>
-                        <h3>MONTHLY</h3>
-                      </div>
-                      <div class="individuals">
-                        <h2 class="affordable__title">For Individuals</h2>
-                        <h5 class="value__para">30 Templates</h5>
-                        <h5 class="value__para">7 Landing Page</h5>
-                        <h5 class="value__para">12 Internal Pages</h5>
-                        <h5 class="value__para">Basic Assistance</h5>
-                      </div>
-                      
-                        <div class="personal__button--wrapper">
-                          <button
-                            class="personal__button personal__button--shadow"
-                          >
-                            BUY NOW
-                          </button>
-                        </div>
-                      
+                  <div class="blue-card__wrapper">
+
+                    <div class="price__green">
+                      <h2 class="blue__name">BUSINESS</h2>
+                      <h1 class="blue__price">$37.99</h1>
+                      <h3 class="blue__time">MONTHLY</h3>
                     </div>
+                    <div class="individuals">
+                      <h2 class="blue-affordable__title">For Small Buisnesses</h2>
+                      <h5 class="blue-card__features">60 Templates</h5>
+                      <h5 class="blue-card__features">15 Landing Page</h5>
+                      <h5 class="blue-card__features">22 Internal Pages</h5>
+                      <h5 class="blue-card__features">Priority Assistance</h5>
+                    </div>
+
+                    <div class="personal__button--wrapper">
+                      <button class="blue-personal__button personal__button--shadow">
+                        BUY NOW
+                      </button>
+                    </div>
+
+                  </div>
+                  <div class="red-card__wrapper">
+                    <div class="red-card__line"></div>
+                    <div class="price__red">
+                      <h2 class="red__name">ENTERPISE</h2>
+                      <h1 class="red__price">$57.99</h1>
+                      <h3 class="red__time">MONTHLY</h3>
+                    </div>
+                    <div class="individuals">
+                      <h2 class="affordable__title">For Large Companies</h2>
+                      <h5 class="red-card__features">90 Templates</h5>
+                      <h5 class="red-card__features">27 Landing Page</h5>
+                      <h5 class="red-card__features">37 Internal Pages</h5>
+                      <h5 class="red-card__features">Personal Assistance</h5>
+                    </div>
+
+                    <div class="personal__button--wrapper">
+                      <button class="red-personal__button personal__button--shadow">
+                        BUY NOW
+                      </button>
+                    </div>
+
                   </div>
                 </div>
               </div>
-            </section>
-            <section class="testimonials">
-              <div class="testimonials__container">
-                <div class="row">
-                  <div class="testimonials__wrapper">
-                    <figure class="testimonials__img--wrapper">
-                      <img src="./assets/love.svg" class="testimonials__img" alt="">
-                    </figure>
-                    <div class="testimonials__description--wrapper">
-                      <h2 class="h2__reusable">TESTIMONIALS</h2>
-                      <h1 class="h1__reusable">Our Clients <span class="purple">Love us.</span></h1>
-                      <p class="value__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</p>
-                        <div id="slide__container">
-                          <div id="slick__slide">
-                          <div id="slider1">
-                      <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                      </div>
-                      <h2 class="testimonials__title">Amazing User Experience</h2>
-                      <p class="testimonials__para">Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  
-                        <div class="clients">
-                          <div class="client__img--wrapper">
-                          <figure class="client__img"><img src="./assets/girl.avif" class="client-image" alt=""></figure>
-                          <div class="client__img__description">
-                             <h2 class="testimonials__title">Charlotte Hale</h2>
-                             <p class="client__para">Director, Delos Inc.</p>
+            </div>
+          </section>
+          <section class="testimonials">
+            <div class="testimonials__container">
+              <div class="row">
+                <div class="testimonials__wrapper">
+                  <figure class="testimonials__img--wrapper">
+                    <img src="./assets/love.svg" class="testimonials__img" alt="">
+                  </figure>
+                  <div class="testimonials__description--wrapper">
+                    <h2 class="h2__reusable">TESTIMONIALS</h2>
+                    <h1 class="h1__reusable">Our Clients <span class="purple">Love us.</span></h1>
+                    <p class="card__products">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.</p>
+                    <div id="slide__container">
+                      <div id="slick__slide">
+                        <div id="slider1">
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <h2 class="testimonials__title">Amazing User Experience</h2>
+                          <p class="testimonials__para">Sinor Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum
+                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                            culpa qui
+                            officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                          <div class="clients">
+                            <div class="client__img--wrapper">
+                              <figure class="client__img"><img src="./assets/girl.avif" class="client-image" alt="">
+                              </figure>
+                              <div class="client__img__description">
+                                <h2 class="testimonials__title">Charlotte Hale</h2>
+                                <p class="client__para">Director, Delos Inc.</p>
+                              </div>
+                            </div>
+
+                            <div class="arrows">
+                              <div class="arrow">
+                                <button class="btn__slide" onclick="moveDivLeft()"><i
+                                    class="fa-solid fa-arrow-left"></i></button>
+                              </div>
+                              <span class="divider"> | </span>
+                              <div class="arrow">
+                                <button class="btn__slide" onclick="moveDivRight()"><i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                              </div>
+
+                            </div>
                           </div>
                         </div>
-  
-                        <div class="arrows">
-                          <div class="arrow">
-                          <button class="btn__slide" onclick="moveDivLeft()"><i class="fa-solid fa-arrow-left"></i></button>
-                        </div>
-                        <span class ="divider"> | </span>
-                        <div class="arrow">
-                          <button class="btn__slide" onclick="moveDivRight()"><i class="fa-solid fa-arrow-right"></i></button>
-                        </div>
-                  
-                        </div>
-                        </div>
-                      </div>
-                      <div id="slider2">
-                      <div class="stars">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                      </div>
-                      <h2 class="testimonials__title">Love the developers</h2>
-                      <p class="testimonials__para">Sinor Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                        ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-  
-                        <div class="clients">
-                          <div class="client__img--wrapper">
-                          <figure class="client__img"><img src="./assets/boy.avif" class="client-image" alt=""></figure>
-                          <div class="client__img__description">
-                             <h2 class="testimonials__title">Adam Cuppy</h2>
-                             <p class="client__para">Founder, EventsNYC</p>
+                        <div id="slider2">
+                          <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+                          <h2 class="testimonials__title">Love the developers</h2>
+                          <p class="testimonials__para">Sinor Duis aute irure dolor in reprehenderit in voluptate velit
+                            esse cillum
+                            dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                            culpa qui
+                            officia. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt
+                            ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+
+                          <div class="clients">
+                            <div class="client__img--wrapper">
+                              <figure class="client__img"><img src="./assets/boy.avif" class="client-image" alt="">
+                              </figure>
+                              <div class="client__img__description">
+                                <h2 class="testimonials__title">Adam Cuppy</h2>
+                                <p class="client__para">Founder, EventsNYC</p>
+                              </div>
+                            </div>
+
+                            <div class="arrows">
+                              <div class="arrow">
+                                <button class="btn__slide" onclick="moveDivLeft()"><i
+                                    class="fa-solid fa-arrow-left"></i></button>
+                              </div>
+                              <span class="divider"> | </span>
+                              <div class="arrow">
+                                <button class="btn__slide" onclick="moveDivRight()"><i
+                                    class="fa-solid fa-arrow-right"></i></button>
+                              </div>
+
+                            </div>
                           </div>
                         </div>
-  
-                        <div class="arrows">
-                          <div class="arrow">
-                          <button class="btn__slide" onclick="moveDivLeft()"><i class="fa-solid fa-arrow-left"></i></button>
-                        </div>
-                        <span class ="divider"> | </span>
-                        <div class="arrow">
-                          <button class="btn__slide" onclick="moveDivRight()"><i class="fa-solid fa-arrow-right"></i></button>
-                        </div>
-                  
-                        </div>
-                        </div>
                       </div>
                     </div>
-                      </div>
-                    </div>
-  
-  
-  
                   </div>
+
+
+
                 </div>
               </div>
-            </section>
-          </main>
-        </div>
+            </div>
+          </section>
+          <section class="FAQ">
+            <div class="faq__container">
+              <div class="faq__row row">
+                <div class="faq__description--wrapper">
+                  <h2 class="h2__reusable">FAQS</h2>
+                  <h1 class="h1__reusable">
+                    You Have <span class="purple">Questions?</span>
+                  </h1>
+                  <p class="value__description--para pricing__para">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua.
+                  </p>
+                </div>
+                <div class="questions__wrapper">
+                  <div class="question1">
+                    <div class="question__header--arrow">
+                    <h2 id="q1">Are the templates customizable?</h2>
+                    <button id="arrow__button" onclick="arrowMove()"><i class="fa-sharp fa-solid fa-chevron-down"></i></button>
+                  </div>
+                    <p id="ans1">Yes, they all are. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                      exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                      
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>
