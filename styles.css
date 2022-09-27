@@ -618,6 +618,7 @@ text-align: left;
 
 #slide__container {
   overflow: hidden;
+  padding-top:32px;
 }
 
 #slick__slide {

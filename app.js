@@ -22,7 +22,18 @@ function arrowMove(){
     document.getElementById('arrow__button').style.transform ='rotate(180deg)';
 }
 
+//create faq in javascript?
+ 
+  
+  
+      
+
+
+
+
     
+
+
 
 
 
