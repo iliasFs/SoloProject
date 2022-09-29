@@ -33,6 +33,7 @@ a {
 .overall {
   min-height: 100vh;
   padding: 26px;
+  animation: section-pricing 1s;
 }
 
 #logo__text {
@@ -218,6 +219,7 @@ a {
 .features {
   padding-top: 30px;
   padding-bottom: 60px;
+  animation: section-pricing 2s;
 }
 
 .features-transition {
@@ -609,7 +611,7 @@ a {
 
 .pricing {
   padding: 100px 0;
-  animation: section-pricing 2s;
+  
 }
 
 @keyframes section-pricing {
