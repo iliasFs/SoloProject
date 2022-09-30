@@ -33,7 +33,7 @@ a {
 .overall {
   min-height: 100vh;
   padding: 26px;
-  animation: section-pricing 1s;
+  
 }
 
 #logo__text {
@@ -219,11 +219,11 @@ a {
 .features {
   padding-top: 30px;
   padding-bottom: 60px;
-  animation: section-pricing 2s;
+  
 }
 
 .features-transition {
-  animation: section-pricing 2s;
+  
 }
 
 .service__box {
